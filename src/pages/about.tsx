@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1>Hello from develop</h1>
+        <h1>Hello from live server</h1>
         <Link href="/">
           <a>Home</a>
         </Link>
