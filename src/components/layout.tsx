@@ -1,11 +1,6 @@
 import * as React from 'react';
 
 const Layout: React.FC = ({ children }) => {
-  return (
-    <div>
-      <p>Layout</p>
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 };
 export default Layout;

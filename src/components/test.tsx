@@ -1,19 +1,15 @@
 import * as React from 'react';
-import styled from 'styled-components';
-import { Button, Box } from '@chakra-ui/react';
-
-const StyledDiv = styled.div`
-  background-color: red;
-`;
 
 const Test: React.FC = () => {
+  const [state, setState] = React.useState(false);
+
   return (
-    <div>
-      <Box textAlign="center">
-        <Button colorScheme="teal" variant="outline">
-          Button
-        </Button>
-      </Box>
+    <div
+      onClick={() => setState(!state)}
+      className={`${state ? `bg-primary` : `bg-white`} block md:flex `}
+    >
+      <p className="text-primary">Test</p>
+      <p>Tes1</p>
     </div>
   );
 };
