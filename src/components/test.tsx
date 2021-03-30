@@ -6,7 +6,9 @@ const Test: React.FC = () => {
   return (
     <div
       onClick={() => setState(!state)}
-      className={`${state ? `bg-primary` : `bg-white`} block md:flex `}
+      className={`${
+        state ? `bg-primary` : `bg-white`
+      } block md:flex shadow-lg p-md rounded-md mb-md block md:flex justify-between`}
     >
       <p className="text-primary">Test</p>
       <p>Tes1</p>

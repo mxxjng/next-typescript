@@ -11,10 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <h1>Hello from live server</h1>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
+        <div className="max-w-5xl mx-auto p-md">
+          <h1 className="text-2xl sm:text-3xl mb-lg">Hello from about</h1>
+        </div>
       </Layout>
     </div>
   );

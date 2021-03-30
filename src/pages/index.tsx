@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
 import Layout from '../components/layout';
 import Test from '../components/test';
@@ -12,14 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <div className="max-w-5xl mx-auto">
-          <h1 className="sm:text-lg md:text-3xl">Hello from next 123</h1>
-          <p>Text 1</p>
-          <p>Text 2</p>
+        <div className="max-w-5xl mx-auto p-md">
+          <h1 className="text-2xl sm:text-3xl mb-lg">Hello from home</h1>
           <Test />
-          <Link href="/about">
-            <a>About</a>
-          </Link>
         </div>
       </Layout>
     </div>
